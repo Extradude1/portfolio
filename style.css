@@ -497,58 +497,6 @@ b.dis {
   height: auto;
   opacity: 0.3;
 }
-
-.service {
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-  height: 50px;
-  position: fixed;
-  width: 100%;
-}
-
-#service {
-  background-image: url(../../../../Pictures/engin-akyurt-HBh8cFTfAPE-unsplash.jpg);
-  background-size: cover;
-  background-repeat: repeat-y;
-  margin: 0;
-  padding: 0;
-}
-.service ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.service li {
-  margin-top: -2px;
-  height: 40px;
-}
-.service a {
-  width: 900px;
-  height: 100%;
-  padding: 3px 50px;
-  text-decoration: none;
-  align-items: center;
-  color: rgb(4, 4, 4);
-}
-.service a:not(.bars):hover {
-  background-color: lightgray;
-  transition: 0.3s;
-}
-#bars {
-  width: 30px;
-  padding: none;
-  background-color: rgba(0, 0, 0, 0);
-  transition: 0.3s ease;
-}
-#bars:hover {
-  transform: scale(1.2);
-}
-.service li:first-child {
-  margin-right: auto;
-}
 .sidebar li:first-child {
   width: 300px;
 }
@@ -560,8 +508,11 @@ b.dis {
   padding-right: 25px;
   height: 100%;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.233);
-  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.361);
+  border-radius: 16px;
+  padding: 20px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   visibility: hidden;

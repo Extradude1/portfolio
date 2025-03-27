@@ -19,7 +19,7 @@
             </nav>
             <div id="icon">
                 <ul>
-                 <li onclick=showsidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                 <li id="menu-toggle" onclick=showsidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
                 </ul>
             </div>
             <div class="sidebar">
@@ -115,6 +115,7 @@
         let scrollContainer = document.querySelector(".gallery");
         let backBtn = document.getElementById("backBtn");
         let nextBtn = document.getElementById("nextBtn");
+        const menuToggle = document.getElementById("menu-toggle");
 
         scrollContainer.addEventListener("wheel", (evt) => {
             evt.preventDefault();
@@ -136,11 +137,13 @@
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.visibility = 'visible'
             sidebar.style.width = '200px'
+            menuToggle.style.display = 'none'
         }
         function hidesidebar(){
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.visibility = 'hidden'
             sidebar.style.width = '0'
+            menuToggle.style.display = 'list-item'
         }
      </script>
     </body>
