@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="C:\Users\HP\OneDrive\Documents\VS\HTML\portfolio\style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+        <link rel="shortcut icon" href="images/portfolioLogo.png"/>
+        <title>William Omotayo</title>
+    </head>
+    <body>
+        <header class="h">
+            <h1 class="logo">William<div>Omotayo</div></h1>
+            <nav>
+                <a href="index.html">HOME
+                <div class="aa"></div></a>
+                <a href="about.html">ABOUT
+                <div class="na"></div></a>
+            </nav>
+            <div id="icon">
+                <ul>
+                 <li onclick=showsidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                </ul>
+            </div>
+            <div class="sidebar">
+                <ul>
+                    <li onclick=hidesidebar() id="bars"><a href="#"><svg  id="bars" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="https://open.spotify.com/">music</a></li>
+                    <li><a href="https://www.chess.com/member/extradude01">chess</a></li>
+                    <li><a href="https://thelordscrewministry.org/page/home/">church</a></li>
+                </ul>
+            </div>
+        </header>
+        <body>
+            <div class="hom" onclick=hidesidebar()>
+                <div class="block">
+                    <div class="gallery-wrap">
+                        <i class="fa-solid fa-angle-left" id="backBtn"></i>
+                        <div class="gallery">
+                            <div>
+                                <span><img src="c:\Users\HP\OneDrive\Pictures\20240301_152437.png" alt="picture"></span>
+                                <span><img src="c:\Users\HP\OneDrive\Pictures\Child of Him.png" alt="picture"></span>
+                                <span><img src="c:\Users\HP\OneDrive\Pictures\photo_2_2025-03-09_21-40-43.jpg" alt="picture"></span>
+                            </div>
+                            <div>
+                                <span><img src="c:\Users\HP\OneDrive\Pictures\photo_40_2025-02-24_00-01-52.jpg" alt="picture"></span>
+                                <span><img src="images/im4.jpg" alt="picture"></span>
+                                <span><img src="c:\Users\HP\OneDrive\Pictures\photo_33_2025-02-24_00-01-52.jpg" alt="picture"></span>
+                            </div>
+                     </div>
+                       <i class="fa-solid fa-angle-right" id="nextBtn"></i>
+                   </div>
+                </div>
+            </div>
+      <section class="home" onclick=hidesidebar()>
+        <div class="content">
+            <h1><span>Liam...</span><br>developer</h1>
+            <div id = "aboutMe">
+                <h2 >🧑🏽‍💻 About Me</h2>
+                <p class = "contText">
+                  Hi, I'm <strong>William Omotayo</strong>, but people just call me <strong>William :)</strong>.
+                  I'm passionate about using <strong>code and graphic design to solve real problems</strong> and make a positive impact.
+                  I'm currently on a journey to become a skilled <strong>Software Developer</strong>, with a dream to 
+                  <strong>build a startup that teaches young people programming</strong> — while spreading the love of God.
+                </p>
+                <p class = "contText">
+                  I'm learning and growing every day through projects, books, and sharing my progress.
+                  You can check out my work on 
+                  <a href="https://github.com/Extradude1/turbo-barnacle" class="git">GitHub</a>
+                  and follow my journey as I build things that matter.
+                </p>
+                <p class = "saying">
+                    <strong>Faith + Code = Impact.</strong>
+                </p>
+            </div>
+            <div class="button">
+                <a href="c:\Users\HP\OneDrive\Documents\Jesus Wins UA\William's CV .pdf" class="btn">My CV</a>
+            </div>
+        </div>
+        <div class="sidePanel">
+            <div class="social">
+                <a href="https://www.instagram.com/extradude?igsh=MWNlYnowejUzeWMyNA=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/william-omotayo-b93671290/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/GreatExtradude"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://wa.me/qr/2AQTYALD77YME1"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://t.me/WilliamOmotayo"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+     </section>
+    </br>
+</br>
+    <footer class="footer">
+        <div class="footer-text">The Lord is my shepherd! I have all that I need</div>
+    
+        <div class="footer-contact">
+        <a href="https://wa.me/qr/2AQTYALD77YME1"><i class="fa-brands fa-whatsapp"></i> <span>09073179543</span></a>
+        <a href="https://wa.me/qr/2AQTYALD77YME1"><i class="fa-solid fa-location-dot"></i> <span>Lagos, Nigeria</span></a>
+        <a href="mailto:omotayow5@gmail.com"><i class="fa-solid fa-envelope"></i> <span>omotayow5@gmail.com</span></a>
+        </div>
+    
+        <div class="footer-links">
+        <a href="#">To-Do</a>
+        <a href="#">Quiz</a>
+        <a href="#">Age Calculator</a>
+        <a href="#">Calculator</a>
+        </div>
+    
+        <div class="footer-bottom">
+        <span>&copy; William Omotayo - Faith + Code = Impact</span>
+        </div>
+    </footer>
+     </body>
+     <script>
+        let scrollContainer = document.querySelector(".gallery");
+        let backBtn = document.getElementById("backBtn");
+        let nextBtn = document.getElementById("nextBtn");
+
+        scrollContainer.addEventListener("wheel", (evt) => {
+            evt.preventDefault();
+            scrollContainer.style.scrollBehavior = "auto";
+            scrollContainer.scrollLeft += evt.deltaY;
+        });
+
+        nextBtn.addEventListener("click", () => {
+            scrollContainer.style.scrollBehavior = "smooth";
+            scrollContainer.scrollLeft += 700;
+        });
+        backBtn.addEventListener("click", () => {
+            scrollContainer.style.scrollBehavior = "smooth";
+            scrollContainer.scrollLeft -= 700;
+        });
+
+
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.visibility = 'visible'
+            sidebar.style.width = '200px'
+        }
+        function hidesidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.visibility = 'hidden'
+            sidebar.style.width = '0'
+        }
+     </script>
+    </body>
+</html>
