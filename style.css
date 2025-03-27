@@ -566,6 +566,18 @@ b.dis {
   border-top-left-radius: 0px;
   transition: 1s;
 }
+input, textarea {
+  background-color:rgba(132, 139, 168, 0.1);
+  border: 1px solid #555;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+input:focus, textarea:focus {
+  outline: none;
+  border-color: 07195c6c;
+  box-shadow: 0 0 5px #9290c3;
+}
 .textarea {
   width: 31.25rem;
   height: 10rem;
