@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="C:\Users\HP\OneDrive\Documents\VS\HTML\portfolio\well.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+        <link rel="shortcut icon" href="images/portfolio-logo.png"/>
+        <title>William Omotayo - Services</title>
+ </head>
+ <body id="service">
+    <header class="h">
+        <h1 class="logo">William<div>Omotayo</div></h1>
+        <nav>
+            <a href="landingPage.html">HOME
+            <div class="na"></div></a>
+            <a href="about.html">ABOUT
+            <div class="na"></div></a>
+            <a href="services.html">SERVICES
+            <div class="aa"></div></a>
+        </nav>
+        <div id="icon">
+            <ul>
+             <li onclick=showsidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li onclick=hidesidebar() id="bars"><a href="#"><svg  id="bars" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#">Photography</a></li>
+                <li><a href="https://open.spotify.com/">music</a></li>
+                <li><a href="https://www.capcut.com/my-edit">capcut</a></li>
+                <li><a href="C:\Users\William_PC\Documents\VS\To-Do\To-Do.html.html">toDo</a></li>
+                <li><a href="https://www.chess.com/member/extradude01">chess</a></li>
+            </ul>
+        </div>
+    </header>
+    <footer class="foot">
+        <div class="text">This is a footer text thing. heh heh heh heheee</div>
+        <div class="foot2">
+            <a class="con" href="https://wa.me/qr/2AQTYALD77YME1"><i class="fa-brands fa-whatsapp"></i><b class=soc>09073179543</b></a>
+            <a class="con1" href="https://wa.me/qr/2AQTYALD77YME1"><i class="fa-solid fa-location-dot"></i><b class=soc1> Lagos, Nigeria</b></a>
+            <a class="con2" href="https://wa.me/qr/2AQTYALD77YME1"><i class="fa-solid fa-envelope"></i><b class=soc2>omotayow5@gmail.com</b></a>
+        </div>
+        <div class="sel">
+         <div class="foot3">
+             <a class="a" href="C:\Users\HP\OneDrive\Documents\VS\HTML\To-Do\To-Do.html.html">To-Do
+             <div class="nna"></div></a>
+             <a class="b" href="c:\Users\HP\OneDrive\Documents\VS\HTML\Quiz\Quiz.html">Quiz
+             <div class="nna"></div></a>
+             <a class="c" href="c:\Users\HP\OneDrive\Documents\VS\HTML\Age_Calculator\Age_Calc.html">Age Calculator
+             <div class="nna"></div></a>
+         </div>
+         <div class="foot4">
+             <a class="a" href="c:\Users\HP\OneDrive\Documents\VS\HTML\Calculator\Calc.html">Calculator
+             <!--<div class=""></div></a>
+             <a class="">loading...
+             <div class=""></div></a>
+             <a class="">loading...
+             <div class="nna"></div></a>-->
+         </div>
+        </div>
+            <a class="copyright" href="#">(c)william</a>
+     </footer>
+
+
+    <script>
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.visibility = 'visible'
+            sidebar.style.width = '200px'
+        }
+        function hidesidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.width = '0px'
+            sidebar.style.visibility = 'hidden'
+        }
+    </script>
+  <!--<label for="ok">select</label>
+    <select id="ok" name="select">
+        <option value="mee">mee</option>
+        <option value="ss">see</option>
+    </select>
+    <div class="container">
+        <img class="ggt"src="C:\Users\WILLIAM PC\Downloads\wallpaper\johannes-plenio-hvrpOmuMrAI-unsplash.jpg" alt="Cinque Terre" width="1000" height="300">
+        <div class="topleft">Top Left</div>
+      </div>
+      <div class="test"></div>-->
+ </body>
