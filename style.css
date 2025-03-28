@@ -206,10 +206,11 @@ h4{
   color: #e4e5e8;
   background-color: black;
   border: #9290c3 solid;
+  transition: 0.3s;
+  margin-left: 40%;
 }
 .home .button .btn:hover {
   border: solid #e4e5e8 2px;
-  background-color: #3c3b54;
   transform: scale(1.05);
 }
 .aboutMeHeader{
@@ -264,6 +265,9 @@ h4{
 .git{
   color: #9290c3; 
   text-decoration: none;
+}
+.git:hover {
+  color: #807de4;
 }
 .gallery{
   width: 800px;
@@ -594,6 +598,7 @@ b.dis {
   margin-bottom: -150px;
   margin-left: 300px;
   padding: 4%;
+  padding-bottom: 7%;
   border: solid 4px #535c91;
   border-radius: 4%;
   border-top-left-radius: 0px;
@@ -604,6 +609,7 @@ b.dis {
 }
 input, textarea {
   background-color:rgba(132, 139, 168, 0.1);
+  resize: none;
   border: 1px solid #555;
   color: white;
   padding: 10px;
@@ -627,15 +633,15 @@ input:focus, textarea:focus {
   background-color: #9290c3;
   border-radius: 0.5rem;
   margin-top: 2rem;
-  margin-left: 45%;
+  font-weight: 700;
+  margin-left: 35%;
   height: 2.5rem;
-  width: 5rem;
+  width: 10rem;
   cursor: pointer;
   transition: 0.3s ease;
 }
 .submit:hover{
-  background-color:#8890bc;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .confirmation {
   display:none; 
