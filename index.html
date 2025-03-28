@@ -21,98 +21,117 @@
             </nav>
             <div id="icon">
                 <ul>
-                 <li id="menu-toggle" onclick=showsidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                 <li id="menu-toggle" onclick=showsidebar()><a href="#" title="icon"><i class="fa-solid fa-bars"></i></a></li>
                 </ul>
             </div>
             <div class="sidebar">
                 <ul>
-                    <li onclick=hidesidebar() id="bars"><a href="#"><svg  id="bars" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                    <li><a href="#">Photography</a></li>
-                    <li><a href="https://open.spotify.com/">music</a></li>
-                    <li><a href="https://www.chess.com/member/extradude01">chess</a></li>
-                    <li><a href="https://thelordscrewministry.org/page/home/">church</a></li>
+                    <li onclick=hidesidebar() id="bars"><a href="#" title="bars"><svg  id="bars" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="#" target="_blank">Photography</a></li>
+                    <li><a href="https://open.spotify.com/" target="_blank">music</a></li>
+                    <li><a href="https://www.chess.com/member/extradude01" target="_blank">chess</a></li>
+                    <li><a href="https://thelordscrewministry.org/page/home/" target="_blank">church</a></li>
                 </ul>
             </div>
-        </header>
-        <body>
-            <div class="hom" onclick=hidesidebar()>
-                <div class="block">
-                    <div class="gallery-wrap">
-                        <i class="fa-solid fa-angle-left" id="backBtn"></i>
-                        <div class="gallery">
-                            <div>
-                                <span><img src="images/image1.png" alt="picture"></span>
-                                <span><img src="images/Child of Him.png" alt="picture"></span>
-                                <span><img src="images/image2.jpg" alt="picture"></span>
-                            </div>
-                            <div>
-                                <span><img src="images/image3.jpg" alt="picture"></span>
-                                <span><img src="images/image4.jpg" alt="picture"></span>
-                                <span><img src="images/image5.jpg" alt="picture"></span>
-                            </div>
-                     </div>
-                       <i class="fa-solid fa-angle-right" id="nextBtn"></i>
-                   </div>
+       </header>
+        
+        <div class="hom" onclick=hidesidebar()>
+            <div class="block">
+                <div class="gallery-wrap">
+                    <i class="fa-solid fa-angle-left" id="backBtn"></i>
+                    <div class="gallery">
+                        <div>
+                            <span><img src="images/image1.png" alt="picture"></span>
+                            <span><img src="images/Child of Him.png" alt="picture"></span>
+                            <span><img src="images/image2.jpg" alt="picture"></span>
+                        </div>
+                        <div>
+                            <span><img src="images/image3.jpg" alt="picture"></span>
+                            <span><img src="images/image4.jpg" alt="picture"></span>
+                            <span><img src="images/image5.jpg" alt="picture"></span>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-angle-right" id="nextBtn"></i>
                 </div>
             </div>
-      <section class="home" onclick=hidesidebar()>
-        <div class="content">
-            <h1><span>Liam...</span><br>developer</h1>
-            <div id = "aboutMe">
-                <h2 >🧑🏽‍💻 About Me</h2>
-                <p class = "contText">
-                  Hi, I'm <strong>William Omotayo</strong>, but people just call me <strong>William :)</strong>.
-                  I'm passionate about using <strong>code and graphic design to solve real problems</strong> and make a positive impact.
-                  I'm currently on a journey to become a skilled <strong>Software Developer</strong>, with a dream to 
-                  <strong>build a startup that teaches young people programming</strong> — while spreading the love of God.
-                </p>
-                <p class = "contText">
-                  I'm learning and growing every day through projects, books, and sharing my progress.
-                  You can check out my work on 
-                  <a href="https://github.com/Extradude1/turbo-barnacle" class="git">GitHub</a>
-                  and follow my journey as I build things that matter.
-                </p>
-                <p class = "saying">
-                    <strong>Faith + Code = Impact.</strong>
-                </p>
+        </div>
+        <section class="home" onclick=hidesidebar()>
+            <div class="content">
+                <h1><span>Liam...</span><br>developer</h1>
+                <div id = "aboutMe">
+                    <h2 >🧑🏽‍💻 Meet William...</h2>
+                    <p class = "contText">
+                    Hi, I'm <strong>William Omotayo</strong>, a <strong>Graphic Designer</strong> and <strong>Software Developer</strong>.
+                    I'm passionate about using <strong>code and graphic design to solve real problems</strong> and make a positive impact.
+                    I'm currently on a journey to become a skilled <strong>Software Developer</strong>, with a dream to 
+                    <strong>build a startup that teaches young people programming</strong> — while spreading the love of God.
+                    </p>
+                    <p class = "contText">
+                    I'm learning and growing every day through projects, books, and sharing my progress.
+                    You can check out my work on 
+                    <a href="https://github.com/Extradude1/turbo-barnacle" target="_blank" class="git">GitHub</a>
+                    and follow my journey as I build things that matter.
+                    </p>
+                    <p class = "saying">
+                        <strong>Faith + Code = Impact.</strong>
+                    </p>
+                </div>
+                <div class="button">
+                    <a href="William's CV .pdf" target="_blank" class="btn">My CV</a>
+                </div>
             </div>
-            <div class="button">
-                <a href="William's CV .pdf" class="btn">My CV</a>
+            <div class="sidePanel">
+                <div class="social">
+                    <a href="https://www.instagram.com/extradude?igsh=MWNlYnowejUzeWMyNA==" target="_blank" title="social"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/william-omotayo-b93671290/" target="_blank" title="social"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/GreatExtradude" target="_blank" title="social"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://wa.me/qr/2AQTYALD77YME1" target="_blank" title="social"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://t.me/WilliamOmotayo" target="_blank" title="social"><i class="fa-brands fa-telegram"></i></a>
+                </div>
             </div>
-        </div>
-        <div class="sidePanel">
-            <div class="social">
-                <a href="https://www.instagram.com/extradude?igsh=MWNlYnowejUzeWMyNA=="><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/william-omotayo-b93671290/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://x.com/GreatExtradude"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://wa.me/qr/2AQTYALD77YME1"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://t.me/WilliamOmotayo"><i class="fa-brands fa-telegram"></i></a>
+        </section>
+        <section class="projects">
+            <h1>Projects</h1>
+            <div class="project-card">
+                <div class="one">
+                    <h3>My Portfolio Website</h3>
+                    <p class="conText">A personal portfolio built with HTML, CSS, and JavaScript. Responsive, dark-themed, and hosted on Vercel.</p>
+                    <a href="https://github.com/Extradude1/portfolio" target="_blank" class="git">GitHub Repo</a>
+                    <h3>Airtel's USSD system</h3>
+                    <p class="conText">Allows users perform tasks normally given by airtel's USSD code</p>
+                    <a href="https://github.com/Extradude1/aitelussd.git" target="_blank" class="git">GitHub Repo</a>
+                </div>
+                <div class="two">
+                    <h3>To-Do List</h3>
+                    <p class="conText">Allows you to input tasks and cross them out when completed.</p>
+                    <a href="https://github.com/Extradude1/todo" target="_blank" class="git">GitHub Repo</a>
+                    <h3>Quiz</h3>
+                    <p class="conText">A project that prompts the user to answer a series of questions and outputs the answers at the end</p>
+                    <a href="https://github.com/Extradude1/todo" target="_blank" class="git">GitHub Repo</a>
+                    <h3>Age Calculator</h3>
+                    <p class="conText">This project receives your birthdate and returns your exact age (Year, month and day)</p>
+                    <a href="https://github.com/Extradude1/todo" target="_blank" class="git">GitHub Repo</a>
+                    <h3>Calculator</h3>
+                    <p class="conText">A Calculator</p>
+                    <a href="https://github.com/Extradude1/todo" target="_blank" class="git">GitHub Repo</a>
+                </div>
             </div>
-        </div>
-     </section>
-    </br>
-</br>
-    <footer class="footer">
-        <div class="footer-text">The Lord is my shepherd! I have all that I need</div>
+        </section>
+        </br>
+        </br>
+        <footer class="footer">
+            <div class="footer-text">The Lord is my shepherd! I have all that I need</div>
+        
+            <div class="footer-contact">
+            <a href="https://wa.me/qr/2AQTYALD77YME1" target="_blank"><i class="fa-brands fa-whatsapp"></i> <span>09073179543</span></a>
+            <a href="https://maps.app.goo.gl/NAFPvXsk2fnhbDEm9"target="_blank"><i class="fa-solid fa-location-dot"></i> <span>Lagos, Nigeria</span></a>
+            <a href="mailto:omotayow5@gmail.com"target="_blank"><i class="fa-solid fa-envelope"></i> <span>omotayow5@gmail.com</span></a>
+            </div>    
+            <div class="footer-bottom">
+            <span>&copy; William Omotayo - Faith + Code = Impact</span>
+            </div>
+        </footer>
     
-        <div class="footer-contact">
-        <a href="https://wa.me/qr/2AQTYALD77YME1"><i class="fa-brands fa-whatsapp"></i> <span>09073179543</span></a>
-        <a href="https://wa.me/qr/2AQTYALD77YME1"><i class="fa-solid fa-location-dot"></i> <span>Lagos, Nigeria</span></a>
-        <a href="mailto:omotayow5@gmail.com"><i class="fa-solid fa-envelope"></i> <span>omotayow5@gmail.com</span></a>
-        </div>
-    
-        <div class="footer-links">
-        <a href="#">To-Do</a>
-        <a href="#">Quiz</a>
-        <a href="#">Age Calculator</a>
-        <a href="#">Calculator</a>
-        </div>
-    
-        <div class="footer-bottom">
-        <span>&copy; William Omotayo - Faith + Code = Impact</span>
-        </div>
-    </footer>
-     </body>
      <script>
         let scrollContainer = document.querySelector(".gallery");
         let backBtn = document.getElementById("backBtn");
@@ -139,13 +158,13 @@
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.visibility = 'visible'
             sidebar.style.width = '200px'
-            menuToggle.style.display = 'none'
+            menuToggle.style.visibility = 'hidden'
         }
         function hidesidebar(){
             const sidebar = document.querySelector('.sidebar')
+            menuToggle.style.visibility = 'visible'
             sidebar.style.visibility = 'hidden'
             sidebar.style.width = '0'
-            menuToggle.style.display = 'list-item'
         }
      </script>
     </body>
