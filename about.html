@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
         <link rel="icon" href="images/portfolioLogo.png"/>
         <title>William Omotayo - About</title>
@@ -36,48 +37,51 @@
   </div>
 </header>
     <section class="about" class="home" onclick=hidesidebar()>
-      <div class="image-1">
-       <div class="a-image">
-          <img class="about-image" src="images/image7.jpg" alt="my picture">
-          <p class="image-text" href="#">Work?</p>
-       </div>
-       <div class="about-text">
-       <p class="about_text">
-        <b class="dis">HOVER OVER ME</b>
-        I am an aspiring software developer and graphic designer who has worked for the Covenant Center for Open and Distance e-learning (CCODeL) program.  
-        My team and i make designs for the social media team and are responsible for any graphic design in the program. I have also made a few personal projects like a simulation of airtel's USSD system which you can find in my GitHub.
-       </p>
-      </div>
+      <div data-aos="fade-right">
+        <div class="image-1">
+          <div class="a-image">
+             <img class="about-image" src="images/image7.jpg" alt="my picture">
+             <p class="image-text" href="#">Work?</p>
+          </div>
+          <div class="about-text">
+          <p class="about_text">
+           I am an aspiring software developer and graphic designer who has worked for the Covenant Center for Open and Distance e-learning (CCODeL) program.  
+           My team and i make designs for the social media team and are responsible for any graphic design in the program. I have also made a few personal projects like a simulation of airtel's USSD system which you can find in my GitHub.
+          </p>
+         </div>
+        </div>
       </div>
      </br>
-      <div class="image-12">
-         <div class="a-image">
-           <img class="about-image" src="images/LIVING LEGENDS (William).jpg" alt="my picture">
-           <p class="image-text" href="#">School?</p>
-         </div>
-         <div class="about-text">
-          <p class="about_text">
-           <b class="dis">HOVER OVER ME</b>
-           I attended Quest Educational Group for my Primary education and QuestLand College for my Secondary education.
-          </p>
-         </div>
-       </div>
-      </br>
-      <div class="image-22">
-        <div class="a-image">
-          <img class="about-image" src="images\image6.jpg" alt="my picture">
-          <p class="image-text" href="#">Spirituality?</p>
+     <div data-aos="fade-left">
+        <div class="image-12">
+          <div class="a-image">
+            <img class="about-image" src="images/LIVING LEGENDS (William).jpg" alt="my picture">
+            <p class="image-text" href="#">School?</p>
+          </div>
+          <div class="about-text">
+            <p class="about_text">
+            I attended Quest Educational Group for my Primary education and QuestLand College for my Secondary education.
+            </p>
+          </div>
         </div>
-        <div class="about-text">
-          <p class="about_text">
-           <b class="dis">HOVER OVER ME</b>
-           I attend The Lord's Crew Global (TLC) and serve as a choir minister. I love God very much and want to share his love to everyone, one person at a time.
-          </p>
-         </div>
-       </div>
       </div>
+      </br>
+      <div data-aos="fade-right">
+        <div class="image-22" data-aos="fade-right">
+          <div class="a-image">
+            <img class="about-image" src="images\image6.jpg" alt="my picture">
+            <p class="image-text" href="#">Spirituality?</p>
+          </div>
+          <div class="about-text">
+            <p class="about_text">
+            I attend The Lord's Crew Global (TLC) and serve as a choir minister. I love God very much and want to share his love to everyone, one person at a time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" >
       <div class="footer-text">The fear of the Lord is the beginning of wisdom</div>
   
       <div class="footer-contact">
@@ -124,6 +128,10 @@
         sidebar.style.width = '0'
         menuToggle.style.visibility = 'visible'
     }
+ </script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
  </script>
  </body>
 </html>

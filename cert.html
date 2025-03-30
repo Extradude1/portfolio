@@ -3,6 +3,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
         <link rel="icon" href="images/portfolioLogo.png"/>
         <title>William Omotayo</title>
@@ -32,7 +33,7 @@
        </header>
         <section class="hom" onclick=hidesidebar()>
             <section class="homee">
-                <span class="cert">
+                <span class="cert" data-aos="fade-right">
                     <ul>
                         <li><a href="Certificates\Microsoft_FreeCodeCamp_C-Sharp certificate.pdf">Foundational C# with Microsoft – Microsoft/FreeCodeCamp</a></li>
                         <li><a href="Certificates\Omotayo William Ayomide(Certificate) CCODeL.pdf">CCODeL Certificate</a></li>
@@ -91,6 +92,10 @@
             sidebar.style.visibility = 'hidden'
             sidebar.style.width = '0'
         }
+     </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
      </script>
     </body>
 </html>

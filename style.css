@@ -459,13 +459,13 @@ header .back {
 }
 .about_text {
   padding-top: 0.0625rem;
-  color: #070f2b00;
+  color: white;
   transition: 0.3s;
 }
-.about_text:hover {
-  color: white;
+/* .about_text:hover {
+  color: 
   opacity: 1;
-}
+} */
 b.dis {
   visibility: visible;
   position: absolute;
@@ -492,8 +492,8 @@ b.dis {
 .image-12 {
   display: flex;
   float: left;
-  margin-left: 5rem;
-  margin-top: 19.375rem;
+  margin-left: 7rem;
+  margin-top: 25rem;
 }
 .image-22 {
   display: flex;
@@ -817,6 +817,7 @@ input:focus, textarea:focus {
 #m:hover {
   width: 1.25rem;
 }
+
 @media (max-width: 480px) {
   body {
     overflow-x: hidden;

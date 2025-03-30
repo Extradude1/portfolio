@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
         <link rel="icon" href="images/portfolioLogo.png"/>
         <title>William Omotayo</title>
@@ -58,8 +59,8 @@
         </div>
         <section class="home" onclick=hidesidebar()>
             <div class="content">
-                <h1><span>Liam...</span></h1>
-                <div id = "aboutMe">
+                <h1><span data-aos="fade-up">Liam...</span><!--<br>The future--></h1>
+                <div id = "aboutMe" data-aos="fade-up">
                     <h2 >🧑🏽‍💻 Hi There...</h2>
                     <p class = "contText">
                         I'm <strong>William Omotayo</strong>, an aspiring <strong>Graphic Designer</strong> and <strong>Software Developer</strong>.
@@ -81,7 +82,7 @@
                     <a href="William's CV .pdf" target="_blank" class="btn">My CV</a>
                 </div>
             </div>
-            <div class="sidePanel">
+            <div class="sidePanel" data-aos="fade-left">
                 <div class="social">
                     <a href="https://www.instagram.com/extradude?igsh=MWNlYnowejUzeWMyNA==" target="_blank" title="social"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/william-omotayo-b93671290/" target="_blank" title="social"><i class="fa-brands fa-linkedin"></i></a>
@@ -92,9 +93,9 @@
             </div>
         </section>
         <section class="projects">
-            <h1>My Major Projects</h1>
+            <h1 data-aos="fade-right">My Major Projects</h1>
             <div class="ba"></div></a>
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-down"  data-aos-delay="200" >
                 <div class="one">
                     <h3>My Portfolio Website</h3>
                     <p class="conText">A personal portfolio built with HTML, CSS, and JavaScript. Responsive, dark-themed, and hosted on Vercel.</p>
@@ -172,5 +173,9 @@
             sidebar.style.width = '0'
         }
      </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>     
     </body>
 </html>
