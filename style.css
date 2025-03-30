@@ -233,6 +233,7 @@ h4{
   justify-content: space-between;
   padding: 2rem;
   margin-bottom: -10rem;
+  margin-top: 10vh;
 } 
 .projects .ba {
   background-color: #9290c3;
@@ -244,7 +245,7 @@ h4{
   grid-template-columns: auto auto;
   display: flex;
   width: 65%;
-  margin-top: 0.6rem;
+  margin-top: 0.6vh;
 }
 .project-card h3 {
   margin-bottom: 1px;
@@ -536,12 +537,12 @@ b.dis {
   padding-right: 25px;
   height: 100%;
   z-index: 999;
-  background: rgba(83, 92, 145, 0.249); /* semi-transparent background */
+  background: rgba(255, 255, 255, 0.249); /* semi-transparent background */
   backdrop-filter: blur(10px);          /* blur effect */
   -webkit-backdrop-filter: blur(10px);  /* for Safari */
   border-radius: 16px;
   padding: 20px;
-  color: #fff;
+  color: #5b5b5b;
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -551,7 +552,7 @@ b.dis {
 }
 .sidebar a {
   text-decoration: none;
-  color: #535c91;
+  color: #000000;
   padding: 10px 130px 10px 7px;
 }
 .sidebar a:hover {
@@ -730,6 +731,74 @@ input:focus, textarea:focus {
   .projects {
     margin-top: 30px;
   }
+  .hideonmobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+  .form {
+    margin-left: 25px;
+    padding-bottom: 6rem;
+    padding-right: 2rem;
+  }
+  .image-1, .image-12, .image-2, .image-22 {
+    display: flex;
+    margin-left: 25px;
+  }
+  .image-12 {
+    margin-top: 60px;
+  }
+  .projects {
+    margin-top: 35vh;
+  }
+  h1.logo {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 650;
+    letter-spacing: 1px;
+    color: #535c91;
+    padding-left: 35px;
+    cursor: pointer;
+  }
+  h1.logo:hover {
+    color: white;
+    transform: scale(1.3);
+    transition: 0.3s ease-in-out;
+  }
+  nav {
+    height: 45%;
+  }
+  header nav a {
+    float: left;
+    top: -1rem;
+    position: relative;
+    font-size: 15px;
+    font-weight: 250;
+    text-transform: capitalize;
+    margin: 20px 10px 3px 20px;
+    padding: 8px 5px 0 12px;
+    color: #9290c3;
+    letter-spacing: 3px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+  }
+  .home .social {
+    margin-top: 300px;
+    margin-right: 50px;
+  }
+  .project-card p, a {
+    font-size: 15px;
+  }
+  .project-card h3 {
+    font-size: 17px;
+  }
+  .project-card .two {
+    margin-right: -10rem;
+  }
+  .project-card .one {
+    padding-right: 1rem;
+  }
 }
 
 #m{
@@ -761,7 +830,7 @@ input:focus, textarea:focus {
     margin-top: 60px;
   }
   .projects {
-    margin-top: 13rem;;
+    margin-top: 35vh;
   }
   h1.logo {
     font-size: 25px;
@@ -782,6 +851,7 @@ input:focus, textarea:focus {
   }
   header nav a {
     float: left;
+    top: -1rem;
     position: relative;
     font-size: 15px;
     font-weight: 250;
@@ -793,8 +863,75 @@ input:focus, textarea:focus {
     transition: 0.3s ease-in-out;
     text-decoration: none;
   }
-  .sidebar {
-    
+  .home .social {
+    margin-top: 300px;
+    margin-right: 50px;
+  }
+  .project-card p, a {
+    font-size: 15px;
+  }
+  .project-card h3 {
+    font-size: 17px;
+  }
+  .project-card .two {
+    margin-right: -10rem;
+  }
+  .project-card .one {
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .hideonmobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+  .form {
+    margin-left: 25px;
+    padding-bottom: 6rem;
+    padding-right: 2rem;
+  }
+  .image-1, .image-12, .image-2, .image-22 {
+    display: flex;
+    margin-left: 25px;
+  }
+  .image-12 {
+    margin-top: 60px;
+  }
+  .projects {
+    margin-top: 35vh;
+  }
+  h1.logo {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 650;
+    letter-spacing: 1px;
+    color: #535c91;
+    padding-left: 35px;
+    cursor: pointer;
+  }
+  h1.logo:hover {
+    color: white;
+    transform: scale(1.3);
+    transition: 0.3s ease-in-out;
+  }
+  nav {
+    height: 45%;
+  }
+  header nav a {
+    float: left;
+    top: -1rem;
+    position: relative;
+    font-size: 15px;
+    font-weight: 250;
+    text-transform: capitalize;
+    margin: 20px 10px 3px 20px;
+    padding: 8px 5px 0 12px;
+    color: #9290c3;
+    letter-spacing: 3px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
   }
   .home .social {
     margin-top: 300px;
@@ -806,12 +943,10 @@ input:focus, textarea:focus {
   .project-card h3 {
     font-size: 17px;
   }
-}
-@media (max-width: 600px) {
-  .sidebar {
-    width: 100%;
+  .project-card .two {
+    margin-right: -10rem;
   }
-  .menu-button {
-    display: block;
+  .project-card .one {
+    padding-right: 1rem;
   }
 }
