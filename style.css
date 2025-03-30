@@ -244,6 +244,7 @@ h4{
   grid-template-columns: auto auto;
   display: flex;
   width: 65%;
+  margin-top: 0.6rem;
 }
 .project-card h3 {
   margin-bottom: 1px;
@@ -535,7 +536,7 @@ b.dis {
   padding-right: 25px;
   height: 100%;
   z-index: 999;
-  background: rgba(255, 255, 255, 0.249); /* semi-transparent background */
+  background: rgba(83, 92, 145, 0.249); /* semi-transparent background */
   backdrop-filter: blur(10px);          /* blur effect */
   -webkit-backdrop-filter: blur(10px);  /* for Safari */
   border-radius: 16px;
@@ -794,6 +795,16 @@ input:focus, textarea:focus {
   }
   .sidebar {
     
+  }
+  .home .social {
+    margin-top: 300px;
+    margin-right: 50px;
+  }
+  .project-card p, a {
+    font-size: 15px;
+  }
+  .project-card h3 {
+    font-size: 17px;
   }
 }
 @media (max-width: 600px) {
