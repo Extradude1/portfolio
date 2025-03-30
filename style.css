@@ -481,32 +481,19 @@ b.dis {
   display: flex;
   float: left;
 }
-.image-2 {
-  display: flex;
-  float: left;
-  margin-left: 130px;
-  margin-top: 150px;
-}
 .image-12 {
   display: flex;
   float: left;
   margin-left: 80px;
-  margin-top: 50px;
+  margin-top: 310px;
 }
 .image-22 {
   display: flex;
   position: relative;
-  float: right;
-  margin-left: 480px;
-  margin-right: 400px;
+  float: left;
+  
   margin-top: 60px;
   margin-bottom: 50px;
-}
-.image-23 {
-  display: flex;
-  float: left;
-  margin-left: 100px;
-  margin-top: 100px;
 }
 .about {
   padding: 7% 6%;
@@ -732,7 +719,7 @@ input:focus, textarea:focus {
     margin-top: 15rem;
   }
   .projects {
-    margin-top: 1000%;
+    margin-top: 30px;
   }
 }
 
@@ -752,7 +739,21 @@ input:focus, textarea:focus {
   .menu-button {
     display: block;
   }
-  
+  .form {
+    margin-left: 25px;
+    padding-bottom: 6rem;
+    padding-right: 2rem;
+  }
+  .image-1, .image-12, .image-2, .image-22 {
+    display: flex;
+    margin-left: 25px;
+  }
+  .image-12 {
+    margin-top: 60px;
+  }
+  .projects {
+    margin-top: 13rem;;
+  }
 }
 @media (max-width: 600px) {
   .sidebar {
