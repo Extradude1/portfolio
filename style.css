@@ -8,11 +8,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
-  margin-bottom: 0px;
-  margin-right: 0px;
+  margin-bottom: 0rem;
+  margin-right: 0rem;
 }
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0.6rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -21,14 +21,14 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background-color: #4a4a4a;
-  border-radius: 10px;
+  border-radius: 1.6rem;
 }
 header.h {
   width: 100%;
   position: fixed;
   top: 0;
   right: 0;
-  padding: 5px;
+  padding: 0.31rem;
   background-color: #070f2b;
   display: flex;
   justify-content: space-between;
@@ -36,12 +36,12 @@ header.h {
   z-index: 99;
 }
 h1.logo {
-  font-size: 30px;
+  font-size: 1.87rem;
   font-style: italic;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
   color: #535c91;
-  padding-left: 35px;
+  padding-left: 2.18rem;
   cursor: pointer;
 }
 h1.logo:hover {
@@ -55,13 +55,13 @@ nav {
 header nav a {
   float: left;
   position: relative;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   text-transform: capitalize;
-  margin: 20px 20px 3px 20px;
-  padding: 8px 45px 0 12px;
+  margin: 1.25rem 1.25rem 0.18rem 1.25rem;
+  padding: 0.5rem 2.81rem 0 0.75rem;
   color: #9290c3;
-  letter-spacing: 3px;
+  letter-spacing: 0.18rem;
   transition: 0.3s ease-in-out;
   text-decoration: none;
 }
@@ -69,7 +69,7 @@ header nav a .na {
   clear: left;
   visibility: hidden;
   width: 0;
-  height: 3px;
+  height: 0.18rem;
   background-color: #9290c3;
   transition: all 0.3s linear;
 }
@@ -84,16 +84,16 @@ header nav a .aa {
   clear: left;
   visibility: visible;
   width: 100%;
-  height: 3px;
+  height: 0.18rem;
   background-color: #9290c3;
 }
 h4{
-  margin-top: 150px;
+  margin-top: 9.375rem;
 }
 #icon i {
-  font-size: 22px;
+  font-size: 1.375rem;
   color: #9290c3;
-  margin-right: 25px;
+  margin-right: 1.5625rem;
   transition: 0.3s;
 }
 #icon ul {
@@ -107,9 +107,9 @@ h4{
 .hom{
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px, 20px;
+  padding: 3.125rem, 1.25rem;
   color: #e4e5e8;
-  margin-top: 140px;
+  margin-top: 8.75rem;
 }
 .home {
   background: black;
@@ -128,30 +128,30 @@ h4{
   display: flex;
   flex-direction: column;
   max-width: 60%;
-  margin-top: -70px;
+  margin-top: -4.375rem;
 }
 .home.sidePanel {
   display: flex;
   flex-direction: row;
-  gap: 15px;
-  margin-left: 40px;
+  gap: 0.9375rem;
+  margin-left: 2.5rem;
 }
 .home .social {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 200px;
-  margin-left: 30px; 
-  margin-right: 150px;
+  gap: 0.9375rem;
+  margin-top: 12.5rem;
+  margin-left: 1.875rem; 
+  margin-right: 9.375rem;
 }
 .home .social a {
   color: #e4e5e8;
-  font-size: 24px;
+  font-size: 1.5rem;
   display: inline-flex;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   text-decoration: none;
-  border: solid #535c91 2px;
+  border: solid #535c91 0.125rem;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -159,23 +159,23 @@ h4{
 }
 .home .social a:hover {
   color: white;
-  border: solid #9290c3 2px;
+  border: solid #9290c3 0.125rem;
   transform: scale(1.1);
 }
 .home .content h4 {
-  font-size: 24px;
-  letter-spacing: 1px;
+  font-size: 1.5rem;
+  letter-spacing: 0.0625rem;
   text-transform: capitalize;
   font-style: italic;
 }
 .home .content h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   text-transform: capitalize;
 }
 .content h1 span {
-  font-size: 62px;
+  font-size: 3.875rem;
   color: #9290c3;
   transition: 0.3s;
 }
@@ -184,21 +184,21 @@ h4{
   cursor: pointer;
 }
 .content p {
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: white;
   line-height: 1.2;
-  margin: 20px 0 35px;
+  margin: 1.25rem 0 2.1875rem;
 }
 .home .button a {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   text-transform: capitalize;
-  font-size: 22px;
+  font-size: 1.375rem;
   color: #9290c3;
   text-decoration: none;
-  border: solid 2px #1b1a55;
-  border-radius: 10px;
-  margin-right: 15px;
+  border: solid 0.125rem #1b1a55;
+  border-radius: 0.652rem;
+  margin-right: 0.9375rem;
   font-weight: 500;
   transition: 0.3s;
 }
@@ -239,7 +239,7 @@ h4{
   background-color: #9290c3;
   width: 4rem;
   height: 0.1rem;
-  margin-top: -18px;
+  margin-top: -1.125rem;
 }
 .project-card {
   grid-template-columns: auto auto;
@@ -248,26 +248,26 @@ h4{
   margin-top: 0.6vh;
 }
 .project-card h3 {
-  margin-bottom: 1px;
+  margin-bottom: 0.0625rem;
 }
 .project-card p {
-  margin-top: -1px;
+  margin-top: -0.0625rem;
 }
 .projects .one {
-  border-right: 2px solid #9290c3;
+  border-right: 0.125rem solid #9290c3;
   width: 270%;
   
 }
 .projects .two {
-  margin-left: 30px;
+  margin-left: 1.875rem;
   width: 200%;  
-  margin-right: -10px;
+  margin-right: -0.625rem;
 }
 .project-card div {
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: white;
-  /* margin: 20px 0 35px; */
-  grid-gap: 5px;
+  /* margin: 1.25rem 0 2.1825rem; */
+  grid-gap: 0.3125rem;
   display: grid;
 } 
 .git{
@@ -278,17 +278,17 @@ h4{
   color: #807de4;
 }
 .gallery{
-  width: 800px;
+  width: 50rem;
   display: flex;
-  margin: 0px;
+  margin: 0rem;
   overflow-x: scroll;
 }
 .gallery div {
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 20px;
-  padding: 10px;
+  grid-gap: 1.25rem;
+  padding: 0.625rem;
   flex: none;
 }
 .gallery div img {
@@ -306,9 +306,9 @@ h4{
   margin: 10% auto;
 }
 #backBtn, #nextBtn{
-  width: 25px;
+  width: 1.5625rem;
   cursor: pointer;
-  margin: 20px;
+  margin: 1.25rem;
 }
 .gallery div img:hover{
   filter: grayscale(0);
@@ -324,7 +324,7 @@ header.e {
   top: 0;
   right: 0;
   left: 0;
-  padding: 5px;
+  padding: 0.3125rem;
   background-color: #070f2b;
   color: #9290c3;
   display: flex;
@@ -338,46 +338,46 @@ header.e {
   margin-top: 10%;
   padding: 4% 6%;
   padding-top: 15%;
-  border: solid 4px #535c91;
+  border: solid 0.25rem #535c91;
   border-radius: 4%;
 }
 .b {
   padding-left: 30%;
   height: 50%;
-  margin: 20px 20px 30px 20px;
+  margin: 1.25rem 1.25rem 1.875rem 1.25rem;
 }
 .p1 {
   display: inline-flex;
   flex-direction: column;
   float: right;
-  padding-right: 15px;
-  border-radius: 25px;
+  padding-right: 0.9375rem;
+  border-radius: 1.5625rem;
 }
 .p2 {
   display: inline-flex;
   flex-direction: column;
   float: left;
-  padding-right: 15px;
-  border-radius: 15px;
+  padding-right: 0.9375rem;
+  border-radius: 0.9375rem;
 }
 .btn2 {
   display: inline-block;
-  padding: 5px 15px;
+  padding: 0.3125rem 0.9375rem;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: black;
   background-color: #535c91;
   text-decoration: none;
-  border: solid 2px #9290c3;
-  border-radius: 10px;
-  margin-right: 15px;
+  border: solid 0.0125rem #9290c3;
+  border-radius: 0.625rem;
+  margin-right: 0.9375rem;
   font-weight: 10;
   transition: 0.3s;
 }
 .btn2:hover {
   color: #535c91;
   background-color: black;
-  border: solid 2px #e4e5e8;
+  border: solid 0.125rem #e4e5e8;
 }
 
 /*ABOUT*/
@@ -390,8 +390,8 @@ header.a {
   top: 0;
   right: 0;
   left: 0;
-  padding-left: 30px;
-  margin-top: 0px;
+  padding-left: 1.875rem;
+  margin-top: 0rem;
   height: 23%;
   z-index: 1;
 }
@@ -400,10 +400,10 @@ header.a {
   position: fixed;
   transition: 0.3s;
   display: inline-block;
-  font-size: 20px;
-  padding-left: 15px;
-  padding-right: 20px;
-  margin-top: 0px;
+  font-size: 1.25rem;
+  padding-left: 0.9375rem;
+  padding-right: 1.25rem;
+  margin-top: 0rem;
   z-index: 999;
 }
 .back a {
@@ -415,50 +415,50 @@ header.a {
 }
 header .b {
   text-align: center 50%;
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 700;
   padding: auto;
   margin-top: 90;
 }
 header .back {
-  top: 50px;
+  top: 3.125rem;
 }
 .a-image {
   float: left;
   display: flex;
-  margin-right: 3px;
+  margin-right: 0.1875rem;
 }
 .about {
-  margin-top: 150px;
+  margin-top: 9.375rem;
 }
 .about-image {
   display: flex;
   float: left;
-  width: 150px;
-  height: 100px;
-  border: 3px solid #535c91;
+  width: 9.375rem;
+  height: 6.25rem;
+  border: 0.1875rem solid #535c91;
 }
 .image-text {
   clear: left;
-  padding-top: 93px;
+  padding-top: 5.8125em;
   position: absolute;
   text-decoration: none;
   color: white;
-  border-bottom: 3px dashed white;
+  border-bottom: 0.1875rem dashed white;
 }
 .about-text {
   background-color: #070f2b;
   padding: 4%;
-  border: solid 4px #535c91;
+  border: solid 0.25rem #535c91;
   border-radius: 4%;
-  border-top-left-radius: 0px;
+  border-top-left-radius: 0rem;
   transition: 1s;
-  height: 250px;
-  width: 250px;
+  height: 15.625rem;
+  width: 15.625rem;
   overflow: auto;
 }
 .about_text {
-  padding-top: 1px;
+  padding-top: 0.0625rem;
   color: #070f2b00;
   transition: 0.3s;
 }
@@ -471,7 +471,7 @@ b.dis {
   position: absolute;
   color: #8890bc;
   opacity: 1;
-  padding: 30px;
+  padding: 1.875rem;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -492,16 +492,16 @@ b.dis {
 .image-12 {
   display: flex;
   float: left;
-  margin-left: 80px;
-  margin-top: 310px;
+  margin-left: 5rem;
+  margin-top: 19.375rem;
 }
 .image-22 {
   display: flex;
   position: relative;
   float: left;
   
-  margin-top: 60px;
-  margin-bottom: 50px;
+  margin-top: 3.75rem;
+  margin-bottom: 3.125rem;
 }
 .about {
   padding: 7% 6%;
@@ -517,7 +517,7 @@ b.dis {
   position: absolute;
   bottom: 50%;
   left: 50%;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: white;
 }
 
@@ -527,24 +527,24 @@ b.dis {
   opacity: 0.3;
 }
 .sidebar li:first-child {
-  width: 300px;
+  width: 0.1875rem;
 }
 .sidebar {
   position: fixed;
-  top: -17px;
+  top: -1.0625rem;
   right: 0px;
-  bottom: -1000px;
-  padding-right: 25px;
+  bottom: -62.5rem;
+  padding-right: 1.5625rem;
   height: 100%;
   z-index: 999;
   background: rgba(255, 255, 255, 0.249); /* semi-transparent background */
   backdrop-filter: blur(10px);          /* blur effect */
   -webkit-backdrop-filter: blur(10px);  /* for Safari */
-  border-radius: 16px;
-  padding: 20px;
+  border-radius: 1rem;
+  padding: 1.25rem;
   color: #5b5b5b;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: -0.625rem 0 0.625rem rgba(0, 0, 0, 0.1);
   display: flex;
   visibility: hidden;
   flex-direction: column;
@@ -553,17 +553,17 @@ b.dis {
 .sidebar a {
   text-decoration: none;
   color: #000000;
-  padding: 10px 130px 10px 7px;
+  padding: 0.625rem 8.125rem 0.625rem 0.4375rem;
 }
 .sidebar a:hover {
   color: white;
   font-weight: bold;
 }
 .sidebar li {
-  padding-top: 6px;
+  padding-top: 0.375rem;
   list-style-type: none;
   text-decoration: none;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 .sidebar li:not(:first-child) {
   align-items: flex-start;
@@ -572,9 +572,9 @@ b.dis {
   color: #3c4268;
   text-transform: capitalize;
   transition: 0.3s ease;
-  padding: 10px 130px 10px 7px;
+  padding: 0.625rem 8.125rem 0.625rem 0.4375rem;
   background-color: #07195c6c;
-  border-radius: 6px;
+  border-radius: .375rem;
 }
 .sidebar li:not(:first-child):hover {
   background-color: #07195c;
@@ -594,16 +594,16 @@ b.dis {
 .form {
   background-color: #070f2b ;
   color: #9290c3;
-  height: 500px;
-  width: 500px;
-  margin-top: 140px;
-  margin-bottom: -150px;
-  margin-left: 300px;
+  height: 31.25rem;
+  width: 31.25rem;
+  margin-top: 8.75rem;
+  margin-bottom: -9.375rem;
+  margin-left: 18.75rem;
   padding: 4%;
   padding-bottom: 7%;
-  border: solid 4px #535c91;
+  border: solid 0.25rem #535c91;
   border-radius: 4%;
-  border-top-left-radius: 0px;
+  border-top-left-radius: 0rem;
   transition: 1s;
 }
 .form div {
@@ -612,16 +612,16 @@ b.dis {
 input, textarea {
   background-color:rgba(132, 139, 168, 0.1);
   resize: none;
-  border: 1px solid #555;
+  border: 0.0625rem solid #555;
   color: white;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
   font-family: 'Poppins', sans-serif;
 }
 input:focus, textarea:focus {
   outline: none;
   border-color: 07195c6c;
-  box-shadow: 0 0 5px #9290c3;
+  box-shadow: 0 0 0.3125rem #9290c3;
 }
 .textarea {
   width: 31.25rem;
@@ -665,7 +665,7 @@ input:focus, textarea:focus {
 .cert li{
   text-decoration: none;
   font-size: 1.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   transition: 0.3s ease;
 }
 .cert a{
@@ -700,6 +700,9 @@ input:focus, textarea:focus {
   gap: 1rem;
 }
 
+.footer-text {
+  cursor: pointer;
+}
 .footer-contact a,
 .footer-links a {
   color: white;
@@ -716,10 +719,11 @@ input:focus, textarea:focus {
 .footer-bottom {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
 /* Responsive adjustments */
-@media (max-width: 200px) {
+@media (max-width: 769px) and (max-width: 1024px) {
   .footer-contact,
   .footer-links {
     flex-direction: column;
@@ -729,7 +733,7 @@ input:focus, textarea:focus {
     margin-top: 15rem;
   }
   .projects {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   .hideonmobile {
     display: none;
@@ -738,27 +742,27 @@ input:focus, textarea:focus {
     display: block;
   }
   .form {
-    margin-left: 25px;
+    margin-left: 1.5625rem;
     padding-bottom: 6rem;
     padding-right: 2rem;
   }
   .image-1, .image-12, .image-2, .image-22 {
     display: flex;
-    margin-left: 25px;
+    margin-left: 1.5625rem;
   }
   .image-12 {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
   .projects {
     margin-top: 35vh;
   }
   h1.logo {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-style: italic;
     font-weight: 650;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     color: #535c91;
-    padding-left: 35px;
+    padding-left: 2.1875rem;
     cursor: pointer;
   }
   h1.logo:hover {
@@ -773,25 +777,25 @@ input:focus, textarea:focus {
     float: left;
     top: -1rem;
     position: relative;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 250;
     text-transform: capitalize;
-    margin: 20px 10px 3px 20px;
-    padding: 8px 5px 0 12px;
+    margin: 1.25rem 0.625rem 0.1875rem 1.25rem;
+    padding: 0.5rem 0.3125rem 0 0.75rem;
     color: #9290c3;
-    letter-spacing: 3px;
+    letter-spacing: 0.1875rem;
     transition: 0.3s ease-in-out;
     text-decoration: none;
   }
   .home .social {
-    margin-top: 300px;
-    margin-right: 50px;
+    margin-top: 0.3125rem;
+    margin-right: 3.125rem;
   }
   .project-card p, a {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   .project-card h3 {
-    font-size: 17px;
+    font-size: 1.0625rem;
   }
   .project-card .two {
     margin-right: -10rem;
@@ -799,18 +803,21 @@ input:focus, textarea:focus {
   .project-card .one {
     padding-right: 1rem;
   }
+  .gallery{
+    width: 50rem;
+  }
 }
 
 #m{
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   background-color: #9290c3;
   transition: all 0.3s linear;
 }
 #m:hover {
-  width: 100px;
+  width: 1.25rem;
 }
-@media (max-width: 800px) {
+@media (max-width: 480px) {
   .hideonmobile {
     display: none;
   }
@@ -818,27 +825,27 @@ input:focus, textarea:focus {
     display: block;
   }
   .form {
-    margin-left: 25px;
+    margin-left: 1.5625rem;
     padding-bottom: 6rem;
     padding-right: 2rem;
   }
   .image-1, .image-12, .image-2, .image-22 {
     display: flex;
-    margin-left: 25px;
+    margin-left: 1.5625rem;
   }
   .image-12 {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
   .projects {
     margin-top: 35vh;
   }
   h1.logo {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-style: italic;
     font-weight: 650;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     color: #535c91;
-    padding-left: 35px;
+    padding-left: 2.1875rem;
     cursor: pointer;
   }
   h1.logo:hover {
@@ -853,28 +860,28 @@ input:focus, textarea:focus {
     float: left;
     top: -1rem;
     position: relative;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 250;
     text-transform: capitalize;
-    margin: 20px 10px 3px 20px;
-    padding: 8px 5px 0 12px;
+    margin: 1.25rem 0.625rem 0.1875rem 1.25rem;
+    padding: 0.5rem 0.3125rem 0 0.75rem;
     color: #9290c3;
-    letter-spacing: 3px;
+    letter-spacing: 0.1875rem;
     transition: 0.3s ease-in-out;
     text-decoration: none;
   }
   .home .social {
-    margin-top: 300px;
-    margin-right: 50px;
+    margin-top: 18.75rem;
+    margin-right: 3.125rem;
   }
   .project-card p, a {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   .project-card h3 {
-    font-size: 17px;
+    font-size: 1.0625x;
   }
   .project-card .two {
-    margin-right: -10rem;
+    margin-right: -0.625rem;
   }
   .project-card .one {
     padding-right: 1rem;
@@ -888,27 +895,27 @@ input:focus, textarea:focus {
     display: block;
   }
   .form {
-    margin-left: 25px;
+    margin-left: 1.5625rem;
     padding-bottom: 6rem;
     padding-right: 2rem;
   }
   .image-1, .image-12, .image-2, .image-22 {
     display: flex;
-    margin-left: 25px;
+    margin-left: 1.5625rem;
   }
   .image-12 {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
   .projects {
     margin-top: 35vh;
   }
   h1.logo {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-style: italic;
     font-weight: 650;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     color: #535c91;
-    padding-left: 35px;
+    padding-left: 2.1875rem;
     cursor: pointer;
   }
   h1.logo:hover {
@@ -923,30 +930,33 @@ input:focus, textarea:focus {
     float: left;
     top: -1rem;
     position: relative;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 250;
     text-transform: capitalize;
-    margin: 20px 10px 3px 20px;
-    padding: 8px 5px 0 12px;
+    margin: 1.25rem 0.625rem 0.1875rem 1.25rem;
+    padding: 0.5rem 0.3125rem 0 0.75rem;
     color: #9290c3;
-    letter-spacing: 3px;
+    letter-spacing: 0.1875rem;
     transition: 0.3s ease-in-out;
     text-decoration: none;
   }
   .home .social {
-    margin-top: 300px;
-    margin-right: 50px;
+    margin-top: 18.75rem;
+    margin-right: 3.125rem;
   }
   .project-card p, a {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   .project-card h3 {
-    font-size: 17px;
+    font-size: 1.0625rem;
   }
   .project-card .two {
     margin-right: -10rem;
   }
   .project-card .one {
     padding-right: 1rem;
+  }
+  .gallery{
+    width: 50rem;
   }
 }
